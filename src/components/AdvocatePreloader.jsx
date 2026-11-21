@@ -5,14 +5,14 @@ export default function AdvocatePreloader({ lang }) {
   const [fading, setFading] = useState(false);
 
   useEffect(() => {
-    // Quick, elegant 1.1s display then smooth fade-out
+    // Elegant 1.6s display (+0.5s added) then smooth fade-out
     const fadeTimer = setTimeout(() => {
       setFading(true);
-    }, 1100);
+    }, 1600);
 
     const removeTimer = setTimeout(() => {
       setLoading(false);
-    }, 1600);
+    }, 2100);
 
     return () => {
       clearTimeout(fadeTimer);
@@ -86,7 +86,7 @@ export default function AdvocatePreloader({ lang }) {
 
         {/* Elegant Minimalist Hairline Progress Bar */}
         <div className="w-40 sm:w-48 h-[2px] bg-slate-200 rounded-full overflow-hidden relative mb-3">
-          <div className="absolute inset-y-0 left-0 bg-[#09223d] rounded-full animate-[progress_1.1s_ease-in-out_infinite]" />
+          <div className="absolute inset-y-0 left-0 bg-[#09223d] rounded-full animate-[progress_1.6s_ease-in-out_infinite]" />
         </div>
 
         {/* Official Emblem Text */}
