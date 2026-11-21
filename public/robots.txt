@@ -1,0 +1,10 @@
+# Robots.txt for Adv. Paraskumar J. Karetiya Legal Practice Portfolio
+User-agent: *
+Allow: /
+Allow: /paras-cutout.png
+Allow: /advocate-portrait.png
+Allow: /office-board.jpg
+Allow: /scales.svg
+
+# Sitemaps
+Sitemap: https://advocateparaskaretiya.com/sitemap.xml

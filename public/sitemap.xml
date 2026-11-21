@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://advocateparaskaretiya.com/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://advocateparaskaretiya.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="gu" href="https://advocateparaskaretiya.com/?lang=gu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://advocateparaskaretiya.com/" />
+  </url>
+
+  <!-- About & Credentials -->
+  <url>
+    <loc>https://advocateparaskaretiya.com/#about</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Legal Practice Areas & 20+ Services -->
+  <url>
+    <loc>https://advocateparaskaretiya.com/#services</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Case Workflow -->
+  <url>
+    <loc>https://advocateparaskaretiya.com/#workflow</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Legal FAQs -->
+  <url>
+    <loc>https://advocateparaskaretiya.com/#faq</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Office Location & Consultation Contact -->
+  <url>
+    <loc>https://advocateparaskaretiya.com/#contact</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+</urlset>

@@ -1,0 +1,23 @@
+{
+  "name": "Adv. Paraskumar J. Karetiya | Advocate Gujarat High Court",
+  "short_name": "Adv. Paras Karetiya",
+  "description": "Trusted Legal Counsel across Civil, Revenue, Criminal Law and 20+ Legal Services in Rajkot & Gujarat High Court.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#edf3f8",
+  "theme_color": "#436c93",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/scales.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/paras-cutout.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "legal", "productivity"]
+}
