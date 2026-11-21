@@ -8,7 +8,7 @@ export default function FAQSection({ lang, onOpenConsultation }) {
     gu: [
       {
         q: "રાજકોટમાં ઓફિસ ક્યાં આવેલી છે અને મુલાકાતનો સમય શું છે?",
-        a: "અમારી ઓફિસ રાજકોટ ખાતે 'ઓફિસ નં. ૧૨, નક્ષત્ર કોમ્પ્લેક્સ-૫, રાજ પેલેસ ચોક, સાધુ વાસવાણી રોડ, રાજકોટ - ૩૬૦૦૦૫' પર આવેલી છે. સોમવાર થી શનિવાર સવારે ૯:૦૦ થી રાત્રે ૮:૩૦ સુધી રૂબરૂ મળી શકાય છે. રવિવારે પૂર્વ મુલાકાત (Appointment) અનુસાર સમય ફાળવવામાં આવે છે."
+        a: "અમારી ઓફિસ રાજકોટ ખાતે 'ઓફિસ નં. ૧૨, નક્ષત્ર V, રાજ પેલેસ ચોક, સાધુ વાસવાણી રોડ, યોગી નગર, રાજકોટ - ૩૬૦૦૦૫' પર આવેલી છે. સોમવાર થી શનિવાર સવારે ૯:૦૦ થી રાત્રે ૮:૩૦ સુધી રૂબરૂ મળી શકાય છે. રવિવારે પૂર્વ મુલાકાત (Appointment) અનુસાર સમય ફાળવવામાં આવે છે."
       },
       {
         q: "એડવોકેટ પારસકુમાર કારેટીયા કઈ કઈ અદાલતોમાં કેસો ચલાવે છે?",
@@ -34,7 +34,7 @@ export default function FAQSection({ lang, onOpenConsultation }) {
     en: [
       {
         q: "Where is Adv. Paraskumar Karetiya's office located and what are the working hours?",
-        a: "Our office is located at Office No. 12, Nakshatra Complex-5, Raj Palace Chowk, Sadhu Vasvani Road, Rajkot - 360005, Gujarat. Working hours are Monday to Saturday from 9:00 AM to 8:30 PM. Sunday consultations are available by prior appointment."
+        a: "Our office is located at Advocate Paraskumar Karetiya, Office No.12, Nakshatra V, Raj Palace Chowk, Sadhu Vasvani Rd, Yogi Nagar, Rajkot, Gujarat 360005. Working hours are Monday to Saturday from 9:00 AM to 8:30 PM. Sunday consultations are available by prior appointment."
       },
       {
         q: "Which courts and tribunals does Adv. Paraskumar Karetiya practice in?",

@@ -5,7 +5,7 @@ export default function AboutSection({ profile, education, lang, onOpenConsultat
   const [showOfficePhotoModal, setShowOfficePhotoModal] = useState(false);
 
   return (
-    <section id="about" className="py-12 sm:py-24 max-w-7xl mx-auto px-3 sm:px-8 overflow-hidden scroll-mt-24 sm:scroll-mt-28">
+    <section id="about" className="py-12 sm:py-24 max-w-7xl mx-auto px-3 sm:px-8 overflow-hidden">
       
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
@@ -112,15 +112,15 @@ export default function AboutSection({ profile, education, lang, onOpenConsultat
               <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent flex items-end justify-between p-4 text-white">
                 <div>
                   <div className="text-xs font-bold text-white tracking-wide">
-                    {lang === 'gu' ? "ઓફિસ નં. ૧૨, નક્ષત્ર કોમ્પ્લેક્સ-૫" : "Office No. 12, Nakshatra Complex-5"}
+                    {lang === 'gu' ? "ઓફિસ નં. ૧૨, નક્ષત્ર V, રાજ પેલેસ ચોક" : "Office No. 12, Nakshatra V, Raj Palace Chowk"}
                   </div>
                   <div className="text-[11px] text-white/80">
-                    {lang === 'gu' ? "રાજ પેલેસ ચોક, સાધુ વાસવાણી રોડ, રાજકોટ" : "Raj Palace Chowk, Sadhu Vasvani Road, Rajkot"}
+                    {lang === 'gu' ? "સાધુ વાસવાણી રોડ, યોગી નગર, રાજકોટ - ૩૬૦૦૦૫" : "Sadhu Vasvani Rd, Yogi Nagar, Rajkot - 360005"}
                   </div>
                 </div>
                 <div className="flex items-center gap-1.5 flex-shrink-0">
                   <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=Office+No+12+Nakshatra+Complex+5+Raj+Palace+Chowk+Sadhu+Vasvani+Road+Rajkot+360005"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Advocate+Paraskumar+Karetiya+Office+No+12+Nakshatra+V+Raj+Palace+Chowk+Sadhu+Vasvani+Rd+Yogi+Nagar+Rajkot+Gujarat+360005"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-2.5 py-1.5 rounded-lg bg-emerald-600/90 hover:bg-emerald-600 backdrop-blur-md text-white text-xs font-bold flex items-center gap-1 transition shadow-sm"

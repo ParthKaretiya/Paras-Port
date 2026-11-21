@@ -39,14 +39,14 @@ export default function App() {
       document.title = "એડવોકેટ પારસકુમાર જે. કારેટીયા | ગુજરાત હાઈકોર્ટ & રાજકોટ ડિસ્ટ્રિક્ટ કોર્ટ વકીલ";
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
-        metaDesc.setAttribute('content', 'એડવોકેટ પારસકુમાર જે. કારેટીયા (બી.કોમ., એલ.એલ.બી., એલ.એલ.એમ. ચાલુ) - સિવિલ, રેવન્યુ, ક્રિમીનલ કેસો અને ૨૦+ કાનૂની સેવાઓ. ઓફિસ નં. ૧૨, નક્ષત્ર કોમ્પ્લેક્સ-૫, સાધુ વાસવાણી રોડ, રાજકોટ.');
+        metaDesc.setAttribute('content', 'એડવોકેટ પારસકુમાર જે. કારેટીયા (બી.કોમ., એલ.એલ.બી., એલ.એલ.એમ. ચાલુ) - સિવિલ, રેવન્યુ, ક્રિમીનલ કેસો અને ૨૦+ કાનૂની સેવાઓ. ઓફિસ નં. ૧૨, નક્ષત્ર V, રાજ પેલેસ ચોક, સાધુ વાસવાણી રોડ, યોગી નગર, રાજકોટ.');
       }
     } else {
       document.documentElement.lang = 'en';
       document.title = "Adv. Paraskumar J. Karetiya | Advocate Gujarat High Court & Rajkot District Courts";
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
-        metaDesc.setAttribute('content', 'Adv. Paraskumar J. Karetiya (B.Com., LL.B., LL.M. Running) - Civil, Revenue, Criminal litigation, Property Documentation, Affidavits, and 20+ Legal Services in Rajkot & Gujarat High Court. Office No. 12, Nakshatra Complex-5, Sadhu Vasvani Road, Rajkot.');
+        metaDesc.setAttribute('content', 'Adv. Paraskumar J. Karetiya (B.Com., LL.B., LL.M. Running) - Civil, Revenue, Criminal litigation, Property Documentation, Affidavits. Advocate Paraskumar Karetiya, Office No.12, Nakshatra V, Raj Palace Chowk, Sadhu Vasvani Rd, Yogi Nagar, Rajkot, Gujarat 360005.');
       }
     }
 
