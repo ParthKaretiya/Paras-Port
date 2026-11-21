@@ -5,14 +5,14 @@ export default function AdvocatePreloader({ lang }) {
   const [fading, setFading] = useState(false);
 
   useEffect(() => {
-    // Smooth 1.25s load then fade out
+    // Quick, elegant 1.1s display then smooth fade-out
     const fadeTimer = setTimeout(() => {
       setFading(true);
-    }, 1200);
+    }, 1100);
 
     const removeTimer = setTimeout(() => {
       setLoading(false);
-    }, 1750);
+    }, 1600);
 
     return () => {
       clearTimeout(fadeTimer);
@@ -24,90 +24,74 @@ export default function AdvocatePreloader({ lang }) {
 
   return (
     <div
-      className={`fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#081a2e] transition-all duration-500 ease-out px-4 ${
-        fading ? 'opacity-0 scale-105 pointer-events-none' : 'opacity-100 scale-100'
+      className={`fixed inset-0 z-[100] flex flex-col items-center justify-center bg-white transition-opacity duration-500 ease-out px-4 ${
+        fading ? 'opacity-0 pointer-events-none' : 'opacity-100'
       }`}
     >
-      {/* Subtle fine geometric line texture */}
-      <div 
-        className="absolute inset-0 opacity-[0.05] pointer-events-none bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:24px_24px]" 
-      />
-
-      {/* Centerpiece: Executive Architectural Card */}
-      <div className="relative z-10 bg-[#0c223a] rounded-2xl p-7 sm:p-9 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.6)] border border-[#1f436d] max-w-sm sm:max-w-md w-full flex flex-col items-center text-center">
+      {/* Proper, Handcrafted Centerpiece - Clean & Elegant, No Blue Soup */}
+      <div className="flex flex-col items-center text-center max-w-sm w-full">
         
-        {/* Animated Judicial Seal Badge */}
-        <div className="relative mb-5">
-          
-          {/* Subtle Rotating Dotted Ring */}
-          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full border border-dashed border-[#d4a359]/40 animate-[spin_12s_linear_infinite]" />
-          
-          {/* Central Seal */}
-          <div className="absolute inset-2 rounded-full bg-[#081a2e] border-2 border-[#1e4470] shadow-md flex items-center justify-center p-2.5">
+        {/* Official Advocate Judicial Seal */}
+        <div className="relative mb-6">
+          <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-2 border-[#09223d] flex items-center justify-center p-2.5 shadow-sm bg-white">
             <svg
               viewBox="0 0 100 100"
-              className="w-14 h-14 sm:w-16 sm:h-16 text-[#60a5fa] drop-shadow-sm"
+              className="w-14 h-14 sm:w-16 sm:h-16 text-[#09223d]"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               {/* Outer Circular Seal border */}
-              <circle cx="50" cy="50" r="46" stroke="#d4a359" strokeWidth="2" opacity="0.8" />
-              <circle cx="50" cy="50" r="41" stroke="#60a5fa" strokeWidth="1" strokeDasharray="3 3" opacity="0.5" />
+              <circle cx="50" cy="50" r="46" stroke="#09223d" strokeWidth="1.5" />
+              <circle cx="50" cy="50" r="42" stroke="#c59b27" strokeWidth="1" strokeDasharray="3 3" />
 
-              {/* Central Scales of Justice Pillar */}
-              <line x1="50" y1="20" x2="50" y2="76" stroke="#ffffff" strokeWidth="3" strokeLinecap="round" />
+              {/* Central Pillar of Justice */}
+              <line x1="50" y1="20" x2="50" y2="76" stroke="#09223d" strokeWidth="3" strokeLinecap="round" />
               
               {/* Pillar Base */}
-              <line x1="38" y1="76" x2="62" y2="76" stroke="#ffffff" strokeWidth="3.5" strokeLinecap="round" />
-              <line x1="42" y1="72" x2="58" y2="72" stroke="#d4a359" strokeWidth="2" />
+              <line x1="36" y1="76" x2="64" y2="76" stroke="#09223d" strokeWidth="3" strokeLinecap="round" />
+              <line x1="40" y1="72" x2="60" y2="72" stroke="#c59b27" strokeWidth="1.5" />
 
-              {/* Top Arch / Beam */}
-              <path d="M26 34 Q 50 28 74 34" stroke="#ffffff" strokeWidth="2.5" strokeLinecap="round" />
-              <circle cx="50" cy="28" r="3.5" fill="#d4a359" />
+              {/* Beam */}
+              <path d="M24 34 Q 50 28 76 34" stroke="#09223d" strokeWidth="2.5" strokeLinecap="round" />
+              <circle cx="50" cy="28" r="3" fill="#c59b27" />
 
-              {/* Left Scale Pan with strings */}
-              <line x1="28" y1="34" x2="22" y2="48" stroke="#93c5fd" strokeWidth="1.2" opacity="0.9" />
-              <line x1="28" y1="34" x2="34" y2="48" stroke="#93c5fd" strokeWidth="1.2" opacity="0.9" />
-              <path d="M19 48 Q 28 54 37 48 Z" fill="#60a5fa" />
+              {/* Left Scale Pan */}
+              <line x1="26" y1="34" x2="20" y2="48" stroke="#09223d" strokeWidth="1.2" />
+              <line x1="26" y1="34" x2="32" y2="48" stroke="#09223d" strokeWidth="1.2" />
+              <path d="M17 48 Q 26 54 35 48 Z" fill="#09223d" />
 
-              {/* Right Scale Pan with strings */}
-              <line x1="72" y1="34" x2="66" y2="48" stroke="#93c5fd" strokeWidth="1.2" opacity="0.9" />
-              <line x1="72" y1="34" x2="78" y2="48" stroke="#93c5fd" strokeWidth="1.2" opacity="0.9" />
-              <path d="M63 48 Q 72 54 81 48 Z" fill="#60a5fa" />
+              {/* Right Scale Pan */}
+              <line x1="74" y1="34" x2="68" y2="48" stroke="#09223d" strokeWidth="1.2" />
+              <line x1="74" y1="34" x2="80" y2="48" stroke="#09223d" strokeWidth="1.2" />
+              <path d="M65 48 Q 74 54 83 48 Z" fill="#09223d" />
 
               {/* Advocate White Collar Bands */}
               <g transform="translate(0, -2)">
-                <polygon points="45,21 48,21 47,30 43,30" fill="#ffffff" stroke="#081a2e" strokeWidth="0.8" />
-                <polygon points="52,21 55,21 57,30 53,30" fill="#ffffff" stroke="#081a2e" strokeWidth="0.8" />
+                <polygon points="45,21 48,21 47,30 43,30" fill="#ffffff" stroke="#09223d" strokeWidth="0.8" />
+                <polygon points="52,21 55,21 57,30 53,30" fill="#ffffff" stroke="#09223d" strokeWidth="0.8" />
               </g>
             </svg>
           </div>
-
         </div>
 
-        {/* Advocate Name */}
-        <h2 className="font-serif text-lg sm:text-2xl font-bold tracking-tight text-white mb-1">
+        {/* Advocate Name in Classical Editorial Serif */}
+        <h2 className="font-serif text-lg sm:text-2xl font-bold tracking-tight text-[#09223d] mb-1">
           {lang === 'gu' ? "એડવોકેટ પારસકુમાર જે. કારેટીયા" : "Adv. Paraskumar J. Karetiya"}
         </h2>
 
-        {/* Qualifications */}
-        <p className="text-xs sm:text-sm font-mono font-medium text-[#93c5fd] tracking-wide mb-1">
-          {lang === 'gu' ? "બી.કોમ. • એલ.એલ.બી. • એલ.એલ.એમ. (ચાલુ)" : "B.Com. • LL.B. • LL.M. (Running)"}
+        {/* Official Standing */}
+        <p className="text-xs font-mono font-semibold text-slate-500 tracking-widest uppercase mb-4">
+          {lang === 'gu' ? "ગુજરાત હાઈકોર્ટ • રાજકોટ બાર" : "Gujarat High Court • Rajkot Bar"}
         </p>
 
-        {/* Court Jurisdiction */}
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#102742] text-[#93c5fd] text-[10px] sm:text-xs font-mono font-semibold border border-[#1f4570] mb-5">
-          <span>{lang === 'gu' ? "ગુજરાત હાઈકોર્ટ • રાજકોટ" : "Gujarat High Court • Rajkot"}</span>
+        {/* Elegant Minimalist Hairline Progress Bar */}
+        <div className="w-40 sm:w-48 h-[2px] bg-slate-200 rounded-full overflow-hidden relative mb-3">
+          <div className="absolute inset-y-0 left-0 bg-[#09223d] rounded-full animate-[progress_1.1s_ease-in-out_infinite]" />
         </div>
 
-        {/* Animated Progress Bar */}
-        <div className="w-44 sm:w-52 h-1 rounded-full bg-[#132f50] overflow-hidden relative mb-3">
-          <div className="absolute inset-y-0 left-0 bg-gradient-to-r from-[#60a5fa] via-[#d4a359] to-[#60a5fa] rounded-full animate-[progress_1.2s_ease-in-out_infinite]" />
-        </div>
-
-        {/* Legal Motto */}
-        <span className="text-[11px] text-slate-400 font-medium tracking-wider">
-          {lang === 'gu' ? "સત્યમેવ જયતે • વિશ્વાસપાત્ર કાનૂની સેવા" : "Truth Alone Triumphs • Trusted Legal Counsel"}
+        {/* Official Emblem Text */}
+        <span className="text-[11px] font-mono text-slate-400 tracking-widest uppercase">
+          {lang === 'gu' ? "સત્યમેવ જયતે" : "Satyameva Jayate"}
         </span>
 
       </div>

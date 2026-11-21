@@ -6,7 +6,7 @@ export default function AboutSection({ profile, education, lang, onOpenConsultat
 
   return (
     <section id="about" className="py-12 sm:py-24 max-w-7xl mx-auto px-3 sm:px-8 overflow-hidden">
-      
+
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
         <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#e8f1f8] text-[#365e8a] text-xs font-semibold mb-3">
@@ -28,7 +28,7 @@ export default function AboutSection({ profile, education, lang, onOpenConsultat
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-        
+
         {/* Left Column: Educational Journey Cards */}
         <div className="lg:col-span-6 space-y-5">
           <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-7 lg:p-9 shadow-card border border-slate-100">
@@ -87,7 +87,7 @@ export default function AboutSection({ profile, education, lang, onOpenConsultat
 
         {/* Right Column: Actual Office Showcase */}
         <div className="lg:col-span-6 space-y-6">
-          
+
           {/* Office Card with real photo */}
           <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-7 lg:p-9 shadow-card border border-slate-100 relative overflow-hidden">
             <h3 className="text-xl font-bold text-[#09294f] mb-4 flex items-center justify-between">
