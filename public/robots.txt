@@ -7,4 +7,4 @@ Allow: /office-board.jpg
 Allow: /scales.svg
 
 # Sitemaps
-Sitemap: https://advocateparaskaretiya.com/sitemap.xml
+Sitemap: https://paraskumaradvocate.vercel.app/sitemap.xml

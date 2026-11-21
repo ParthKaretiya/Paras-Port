@@ -3,18 +3,18 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Homepage -->
   <url>
-    <loc>https://advocateparaskaretiya.com/</loc>
+    <loc>https://paraskumaradvocate.vercel.app/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://advocateparaskaretiya.com/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="gu" href="https://advocateparaskaretiya.com/?lang=gu" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://advocateparaskaretiya.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://paraskumaradvocate.vercel.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="gu" href="https://paraskumaradvocate.vercel.app/?lang=gu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://paraskumaradvocate.vercel.app/" />
   </url>
 
   <!-- About & Credentials -->
   <url>
-    <loc>https://advocateparaskaretiya.com/#about</loc>
+    <loc>https://paraskumaradvocate.vercel.app/#about</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -22,7 +22,7 @@
 
   <!-- Legal Practice Areas & 20+ Services -->
   <url>
-    <loc>https://advocateparaskaretiya.com/#services</loc>
+    <loc>https://paraskumaradvocate.vercel.app/#services</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -30,7 +30,7 @@
 
   <!-- Case Workflow -->
   <url>
-    <loc>https://advocateparaskaretiya.com/#workflow</loc>
+    <loc>https://paraskumaradvocate.vercel.app/#workflow</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -38,7 +38,7 @@
 
   <!-- Legal FAQs -->
   <url>
-    <loc>https://advocateparaskaretiya.com/#faq</loc>
+    <loc>https://paraskumaradvocate.vercel.app/#faq</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -46,7 +46,7 @@
 
   <!-- Office Location & Consultation Contact -->
   <url>
-    <loc>https://advocateparaskaretiya.com/#contact</loc>
+    <loc>https://paraskumaradvocate.vercel.app/#contact</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
