@@ -62,7 +62,7 @@ export default function FAQSection({ lang, onOpenConsultation }) {
   const list = faqs[lang] || faqs.en;
 
   return (
-    <section id="faq" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+    <section id="faq" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto scroll-mt-24 sm:scroll-mt-28">
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#edf4f9] text-[#2c537d] text-xs font-bold mb-3 border border-[#d2e2ef]">

@@ -54,7 +54,7 @@ export default function PracticeAreas({ services, lang, onOpenConsultation }) {
   });
 
   return (
-    <section id="services" className="py-12 sm:py-24 bg-gradient-to-b from-[#f3f7fa] to-[#e8f1f7] relative overflow-hidden">
+    <section id="services" className="py-12 sm:py-24 bg-gradient-to-b from-[#f3f7fa] to-[#e8f1f7] relative overflow-hidden scroll-mt-24 sm:scroll-mt-28">
       <div className="max-w-7xl mx-auto px-3 sm:px-8">
         
         {/* Section Header */}

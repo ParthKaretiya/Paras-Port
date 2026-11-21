@@ -5,7 +5,7 @@ export default function WorkflowSection({ workflow, lang }) {
   const icons = [FileSearch, Compass, PenTool, Gavel];
 
   return (
-    <section id="workflow" className="py-12 sm:py-24 bg-[#eef4f9] border-y border-[#dce7f0] overflow-hidden">
+    <section id="workflow" className="py-12 sm:py-24 bg-[#eef4f9] border-y border-[#dce7f0] overflow-hidden scroll-mt-24 sm:scroll-mt-28">
       <div className="max-w-7xl mx-auto px-3 sm:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">

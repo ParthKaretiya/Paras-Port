@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import ConsultationModal from './components/ConsultationModal';
 import AdvocatePreloader from './components/AdvocatePreloader';
 import { portfolioData } from './data/portfolioData';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, ChevronUp } from 'lucide-react';
 
 export default function App() {
   // Language state: 'gu' (Gujarati) or 'en' (English)
@@ -210,6 +210,18 @@ export default function App() {
           {lang === 'gu' ? 'વોટ્સએપ સંપર્ક' : 'WhatsApp'}
         </span>
       </a>
+
+      {/* Floating Back to Top Button (Bottom Right) */}
+      <button
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        className={`fixed bottom-6 right-5 z-40 p-3 rounded-full bg-[#09294f]/90 hover:bg-[#09294f] text-white shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 border-2 border-white/80 flex items-center justify-center group ${
+          scrollProgress > 8 ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-6 pointer-events-none'
+        }`}
+        aria-label="Back to top"
+        title={lang === 'gu' ? "ટોચ પર જાઓ" : "Back to top"}
+      >
+        <ChevronUp size={20} className="group-hover:-translate-y-0.5 transition-transform" />
+      </button>
 
     </div>
   );

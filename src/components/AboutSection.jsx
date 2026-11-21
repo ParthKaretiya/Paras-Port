@@ -5,7 +5,7 @@ export default function AboutSection({ profile, education, lang, onOpenConsultat
   const [showOfficePhotoModal, setShowOfficePhotoModal] = useState(false);
 
   return (
-    <section id="about" className="py-12 sm:py-24 max-w-7xl mx-auto px-3 sm:px-8 overflow-hidden">
+    <section id="about" className="py-12 sm:py-24 max-w-7xl mx-auto px-3 sm:px-8 overflow-hidden scroll-mt-24 sm:scroll-mt-28">
       
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">

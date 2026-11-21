@@ -5,7 +5,7 @@ export default function HeroSection({ profile, lang, onOpenConsultation, customP
   const photoSrc = customPhotoUrl || '/paras-cutout.png';
 
   return (
-    <section id="home" className="relative pt-2 pb-8 sm:pb-16 px-2 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
+    <section id="home" className="relative pt-20 sm:pt-24 lg:pt-28 pb-8 sm:pb-16 px-2 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden scroll-mt-28">
       
       {/* Outer Hero Container with Slate-Blue Gradient Theme */}
       <div className="relative rounded-[1.75rem] sm:rounded-[2.5rem] lg:rounded-[3rem] overflow-hidden bg-gradient-to-br from-[#4b729a] via-[#5c85ae] to-[#6e95bd] shadow-hero border border-white/35 p-4 sm:p-7 lg:p-11">
